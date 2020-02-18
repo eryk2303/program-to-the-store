@@ -1,0 +1,105 @@
+\hypertarget{class_produkty}{}\section{Produkty Class Reference}
+\label{class_produkty}\index{Produkty@{Produkty}}
+
+
+{\ttfamily \#include $<$Produkty.\+h$>$}
+
+Inheritance diagram for Produkty\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_produkty}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_produkty_a720c6591cfbb332f99baccf0f54c4ada}{wypisz}} ()
+\item 
+void \mbox{\hyperlink{class_produkty_a73fe67e794f741b972330c09a8cf8e55}{Wstaw\+\_\+nazwe\+\_\+cene}} ()
+\item 
+void \mbox{\hyperlink{class_produkty_ac38af686bb465b62fd499dec9dd6c246}{Wypisz\+\_\+nazwe\+\_\+cene}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_produkty_ad69fa64c8984c55fe9b1a2ade607a0ed}{wstaw}} ()
+\item 
+virtual void \mbox{\hyperlink{class_produkty_a49c2ba4084346df8e7c987b9ec62676e}{zapisz}} (std\+::ostream \&o) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_produkty_aafbfed7251061470ba934e02ef902428}\label{class_produkty_aafbfed7251061470ba934e02ef902428}} 
+string {\bfseries nazwa}
+\item 
+\mbox{\Hypertarget{class_produkty_a28eb276dae9d80062d5384be339d87d9}\label{class_produkty_a28eb276dae9d80062d5384be339d87d9}} 
+float {\bfseries cena}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_produkty_a222d7f697f1aa66b79aefe7163945973}{operator$<$$<$}} (std\+::ostream \&o, \mbox{\hyperlink{class_produkty}{Produkty}} \&p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa abstrakcyjna \mbox{\hyperlink{class_produkty}{Produkty}} umozliwiajaca wprowadzanie oraz reprezentacjie czesci danych o nowych produktach 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_produkty_ad69fa64c8984c55fe9b1a2ade607a0ed}\label{class_produkty_ad69fa64c8984c55fe9b1a2ade607a0ed}} 
+\index{Produkty@{Produkty}!wstaw@{wstaw}}
+\index{wstaw@{wstaw}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{wstaw()}{wstaw()}}
+{\footnotesize\ttfamily void Produkty\+::wstaw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+metoda wirtualna sluzaca do wprowadzanaia danych z klawiatury 
+
+Reimplemented in \mbox{\hyperlink{class_skrzynki_a764d5064b25a294b3309dc5077a77921}{Skrzynki}}, \mbox{\hyperlink{class_srubki_a129b7fcf23ad1928f196ca255aa66438}{Srubki}}, \mbox{\hyperlink{class_narzedzia_ade1bd4ecf05c894b263791bfcf0f876f}{Narzedzia}}, and \mbox{\hyperlink{class_skrzynka__z__srubkami_a4726c1844080cb96e833cf16e977ecb3}{Skrzynka\+\_\+z\+\_\+srubkami}}.
+
+\mbox{\Hypertarget{class_produkty_a73fe67e794f741b972330c09a8cf8e55}\label{class_produkty_a73fe67e794f741b972330c09a8cf8e55}} 
+\index{Produkty@{Produkty}!Wstaw\+\_\+nazwe\+\_\+cene@{Wstaw\+\_\+nazwe\+\_\+cene}}
+\index{Wstaw\+\_\+nazwe\+\_\+cene@{Wstaw\+\_\+nazwe\+\_\+cene}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{Wstaw\+\_\+nazwe\+\_\+cene()}{Wstaw\_nazwe\_cene()}}
+{\footnotesize\ttfamily void Produkty\+::\+Wstaw\+\_\+nazwe\+\_\+cene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+metoda umozliwiajaca wprowadzenie danych o nazwie i cenie \mbox{\Hypertarget{class_produkty_a720c6591cfbb332f99baccf0f54c4ada}\label{class_produkty_a720c6591cfbb332f99baccf0f54c4ada}} 
+\index{Produkty@{Produkty}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{wypisz()}{wypisz()}}
+{\footnotesize\ttfamily void Produkty\+::wypisz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+metoda wirtualna wypisujaca dane 
+
+Reimplemented in \mbox{\hyperlink{class_skrzynki_adcf60a88ed78fba5a2dfdb54fa82b236}{Skrzynki}}, \mbox{\hyperlink{class_srubki_a0ac1f1ce5748283a13b0f554add73f0b}{Srubki}}, \mbox{\hyperlink{class_narzedzia_a39cd48d9367f3a4e8fcc30878a320338}{Narzedzia}}, and \mbox{\hyperlink{class_skrzynka__z__srubkami_ac543a438ce88bc79a9e8a398b6beff7c}{Skrzynka\+\_\+z\+\_\+srubkami}}.
+
+\mbox{\Hypertarget{class_produkty_ac38af686bb465b62fd499dec9dd6c246}\label{class_produkty_ac38af686bb465b62fd499dec9dd6c246}} 
+\index{Produkty@{Produkty}!Wypisz\+\_\+nazwe\+\_\+cene@{Wypisz\+\_\+nazwe\+\_\+cene}}
+\index{Wypisz\+\_\+nazwe\+\_\+cene@{Wypisz\+\_\+nazwe\+\_\+cene}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{Wypisz\+\_\+nazwe\+\_\+cene()}{Wypisz\_nazwe\_cene()}}
+{\footnotesize\ttfamily void Produkty\+::\+Wypisz\+\_\+nazwe\+\_\+cene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+metoda wypisujaca dane o nazwie i cenie \mbox{\Hypertarget{class_produkty_a49c2ba4084346df8e7c987b9ec62676e}\label{class_produkty_a49c2ba4084346df8e7c987b9ec62676e}} 
+\index{Produkty@{Produkty}!zapisz@{zapisz}}
+\index{zapisz@{zapisz}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{zapisz()}{zapisz()}}
+{\footnotesize\ttfamily void Produkty\+::zapisz (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{o }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+metoda zapisujaca dane do pliku wprowadzane podczas dzialania programu 
+
+Reimplemented in \mbox{\hyperlink{class_skrzynki_a2980647e51a17161872064efc5f1b185}{Skrzynki}}, \mbox{\hyperlink{class_srubki_a2d8edbd9d8170f12378c750f634a7ecd}{Srubki}}, \mbox{\hyperlink{class_narzedzia_a4178a26508e00853e8c5c483f9a439a3}{Narzedzia}}, and \mbox{\hyperlink{class_skrzynka__z__srubkami_a62ccdf02cb9d364630ebea27ea94f2a3}{Skrzynka\+\_\+z\+\_\+srubkami}}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_produkty_a222d7f697f1aa66b79aefe7163945973}\label{class_produkty_a222d7f697f1aa66b79aefe7163945973}} 
+\index{Produkty@{Produkty}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Produkty@{Produkty}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{o,  }\item[{\mbox{\hyperlink{class_produkty}{Produkty}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+funkcja zaprzyjazniona stumienia wyjscia umozwiawajaca zapis do pliku 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Produkty.\+h\item 
+Produkty.\+cpp\end{DoxyCompactItemize}
